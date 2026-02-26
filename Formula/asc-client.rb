@@ -1,13 +1,13 @@
 class AscClient < Formula
   desc "Command-line tool for the App Store Connect API"
   homepage "https://github.com/keremerkan/asc-client"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keremerkan/asc-client/releases/download/v0.4.0/asc-client-macos-arm64.tar.gz"
-      sha256 "64ff15c459385c178ae1d67a6e5cc5fecee78f846fa2dca1039eabf6410f12ef"
+      url "https://github.com/keremerkan/asc-client/releases/download/v0.5.0/asc-client-macos-arm64.tar.gz"
+      sha256 "c8cc44ee4c186b9738e1222878b92e0055c44bd66b65b287c01033b5a3b8d817"
     end
   end
 
