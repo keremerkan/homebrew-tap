@@ -1,0 +1,7 @@
+# General
+.DS_Store
+
+# Claude Code
+/.claude
+.claude/
+**/CLAUDE.md
