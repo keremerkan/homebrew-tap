@@ -7,7 +7,7 @@ class AscClient < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/keremerkan/asc-client/releases/download/v0.6.1/asc-client-macos-arm64.tar.gz"
-      sha256 "510388c7387205d08038d23a518710050ce9d3f97fccade4454ec587564f43df"
+      sha256 "6d01f8d561ffafc0dd2c270b9e8557665197327402ff4b1d00291a26fa4317c0"
     end
   end
 
