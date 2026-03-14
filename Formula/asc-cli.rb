@@ -1,10 +1,8 @@
-class AscClient < Formula
-  desc "Renamed to 'asc-cli' — run: brew install keremerkan/tap/asc-cli"
+class AscCli < Formula
+  desc "A Swift CLI for App Store Connect"
   homepage "https://github.com/keremerkan/asc-cli"
   version "0.7.0"
   license "MIT"
-
-  deprecate! date: "2026-03-14", because: :renamed, replacement: "asc-cli"
 
   on_macos do
     if Hardware::CPU.arm?
