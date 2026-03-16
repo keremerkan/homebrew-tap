@@ -1,13 +1,13 @@
 class AscCli < Formula
   desc "A Swift CLI for App Store Connect"
   homepage "https://github.com/keremerkan/asc-cli"
-  version "0.7.1"
+  version "0.7.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keremerkan/asc-cli/releases/download/v0.7.1/asc-macos-arm64.tar.gz"
-      sha256 "a18624930eb8a2427ca43efc9af1a77940486e2e85a4d26ad40d79ad15d9b93f"
+      url "https://github.com/keremerkan/asc-cli/releases/download/v0.7.2/asc-macos-arm64.tar.gz"
+      sha256 "7d1c383c7de9e017305690652865d97d8e362cbabc3218b670530268d8db0696"
     end
   end
 
