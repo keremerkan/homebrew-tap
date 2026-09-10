@@ -7,7 +7,7 @@ class Ascelerate < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/keremerkan/ascelerate/releases/download/v0.19.0/ascelerate-macos-arm64.tar.gz"
-      sha256 "2cd7cbdef3fa1413213b72edaee6460ce5cca1e102712350c08b9fd9a02f615e"
+      sha256 "ce87bc63523d577f7f59461956c239c43c53ed8ec341b28020c08525805090b0"
     end
   end
 
