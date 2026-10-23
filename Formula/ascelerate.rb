@@ -1,15 +1,15 @@
 class Ascelerate < Formula
   desc "A Swift CLI for App Store Connect"
   homepage "https://github.com/keremerkan/ascelerate"
-  version "0.25.3"
+  version "0.26.0"
   license "MIT"
 
   depends_on macos: :sequoia
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/keremerkan/ascelerate/releases/download/v0.25.3/ascelerate-macos-arm64.tar.gz"
-      sha256 "7d259277d57774d6970dc1d103c458485fc412d7000422be95ab94c1ef79d7fb"
+      url "https://github.com/keremerkan/ascelerate/releases/download/v0.26.0/ascelerate-macos-arm64.tar.gz"
+      sha256 "28fded249534f7fedff50dd75551e24c7c6898fc8524c4d1a794634fa5d8e8f8"
     end
   end
 
