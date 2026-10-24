@@ -1,5 +1,5 @@
 class AscCli < Formula
-  desc "Renamed to 'ascelerate' — run: brew install keremerkan/tap/ascelerate"
+  desc "Renamed to 'ascelerate' — run: brew install ascelerate"
   homepage "https://github.com/keremerkan/ascelerate"
   url "https://github.com/keremerkan/ascelerate/releases/download/v0.7.2/asc-macos-arm64.tar.gz"
   sha256 "7d1c383c7de9e017305690652865d97d8e362cbabc3218b670530268d8db0696"
