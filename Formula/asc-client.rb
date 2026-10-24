@@ -1,17 +1,14 @@
 class AscClient < Formula
-  desc "Renamed to 'asc-cli' — run: brew install keremerkan/tap/asc-cli"
+  desc "Renamed to 'ascelerate' — run: brew install keremerkan/tap/ascelerate"
   homepage "https://github.com/keremerkan/asc-cli"
-  version "0.7.0"
+  url "https://github.com/keremerkan/asc-cli/releases/download/v0.7.0/asc-macos-arm64.tar.gz"
+  sha256 "aed859a9f215512d941436adfc43b43e7967556f864367425e34005f3ad57632"
   license "MIT"
 
-  deprecate! date: "2026-03-14", because: :renamed, replacement: "asc-cli"
+  deprecate! date: "2026-03-14", because: "has been renamed to ascelerate", replacement_formula: "ascelerate"
 
-  on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/keremerkan/asc-cli/releases/download/v0.7.0/asc-macos-arm64.tar.gz"
-      sha256 "aed859a9f215512d941436adfc43b43e7967556f864367425e34005f3ad57632"
-    end
-  end
+  depends_on arch: :arm64
+  depends_on :macos
 
   def install
     bin.install "asc"
